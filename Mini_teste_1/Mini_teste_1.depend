@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1692102188 source:c:\users\alang\progamação\mini_teste_1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+
