@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1692276592 source:c:\users\alang\progamação\aula-17-08\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aula.h"
+
+1692276380 source:c:\users\alang\progamação\aula-17-08\aula.c
+	<stdlib.h>
+	<math.h>
+	"aula.h"
+
+1692276022 c:\users\alang\progamação\aula-17-08\aula.h
+
