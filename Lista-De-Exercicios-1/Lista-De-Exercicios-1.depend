@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1691667115 source:c:\users\alang\progamação\lista-de-exercicios-1\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
