@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1692370204 source:c:\users\alang\progamação\lista-de-exercicios-4\main.c
+	<stdio.h>
+	<stdlib.h>
+	"aula.h"
+
+1692369924 c:\users\alang\progamação\lista-de-exercicios-4\aula.h
+
+1692370710 source:c:\users\alang\progamação\lista-de-exercicios-4\aula.c
+	<math.h>
+	<locale.h>
+	"aula.h"
+
