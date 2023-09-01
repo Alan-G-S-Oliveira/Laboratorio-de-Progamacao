@@ -45,7 +45,7 @@
 
  }
 
- int insere_comeco(Lista *li, int n){
+ int insere_comeco(Lista *li, Aluno n){
 
     if(lista_cheia(li))
         return 0;
@@ -60,7 +60,7 @@
 
  }
 
- int insere_final(Lista *li, int n){
+ int insere_final(Lista *li, Aluno n){
 
     if(lista_cheia(li))
         return 0;
@@ -72,11 +72,29 @@
 
  }
 
- int insere_posicao(Lista *li, int n, int posicao){
+ int insere_ordenado(Lista *li, Aluno n){
 
     if(lista_cheia(li))
         return 0;
-    if(posicao < 0 || posicao >= li -> qtd)
+
+    int i;
+    for(i = 0; i < li -> qtd; i++){
+
+        if(li -> dados[i].matricula > n.matricula)
+            break;
+
+    }
+
+    insere_posicao(li, n, i);
+    return 1;
+
+ }
+
+ int insere_posicao(Lista *li, Aluno n, int posicao){
+
+    if(lista_cheia(li))
+        return 0;
+    if(posicao < 0 || posicao > li -> qtd)
         return 0;
 
     int i;
@@ -131,3 +149,36 @@
     return 1;
 
  }
+
+ int consulta_matricula(Lista *li, Aluno *n, int matricula){
+
+    if(lista_vazia(li))
+        return 0;
+
+    int i;
+    for(i = 0; i < li -> qtd; i++){
+
+        if(li -> dados[i].matricula == matricula)
+            break;
+
+    }
+
+    if(i == li  -> qtd)
+        return 0;
+
+    consulta_posicao(li, n, i);
+    return 1;
+
+ }
+
+int consulta_posicao(Lista *li, Aluno *n, int posicao){
+
+    if(lista_vazia(li))
+        return 0;
+    if(posicao >= li -> qtd || posicao < 0)
+        return 0;
+
+    *n = li -> dados[posicao];
+    return 1;
+
+}
