@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1693917447 source:c:\users\alang\onedrive\Área de trabalho\progamação\laboratorio-de-progamacao\mini-teste-2\main.c
+	<stdio.h>
+	<stdlib.h>
+	<locale.h>
+	"aula.h"
+
+1693917484 source:c:\users\alang\onedrive\Área de trabalho\progamação\laboratorio-de-progamacao\mini-teste-2\aula.c
+	<string.h>
+	"aula.h"
+
+1693916017 c:\users\alang\onedrive\Área de trabalho\progamação\laboratorio-de-progamacao\mini-teste-2\aula.h
+
