@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1695728760 source:c:\users\alang\onedrive\Área de trabalho\progamação\laboratorio-de-progamacao\aula-26-de-setembro\main.c
+	<stdio.h>
+	<stdlib.h>
+	"ListaDinEnc.h"
+
+1695729071 c:\users\alang\onedrive\Área de trabalho\progamação\laboratorio-de-progamacao\aula-26-de-setembro\listadinenc.h
+
