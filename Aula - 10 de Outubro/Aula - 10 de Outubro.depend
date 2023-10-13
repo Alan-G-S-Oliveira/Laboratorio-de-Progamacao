@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1696942306 source:c:\users\alang\onedrive\Área de trabalho\progamação\laboratorio-de-progamacao\aula - 10 de outubro\main.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"aula.h"
+
+1696942306 c:\users\alang\onedrive\Área de trabalho\progamação\laboratorio-de-progamacao\aula - 10 de outubro\aula.h
+
+1696942306 source:c:\users\alang\onedrive\Área de trabalho\progamação\laboratorio-de-progamacao\aula - 10 de outubro\aula.c
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"aula.h"
+
